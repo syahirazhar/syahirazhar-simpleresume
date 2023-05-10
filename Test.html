@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Profile Syahir Azhar</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .navigation {
+                width: 100%;
+                height: 70px;
+                background-color: #98765170;
+                color: rgb(255, 255, 255);
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(5.5px);
+                -webkit-backdrop-filter: blur(9px);
+                position: fixed;
+            }
+
+            .logo {
+                float: left;
+                padding-top: 20px;
+                padding-left: 90px;
+            }
+
+            .menu {
+                margin-left: 1100px;
+                padding: 30px;
+            }
+
+            .menu ul li {
+                list-style: none;
+                display: inline-block;
+                margin-right:50px;
+            }
+
+            .menu ul li a {
+                text-decoration: none;
+                color: white;
+                transition: 0.45s;
+            }
+
+            .menu ul li a:hover {
+                color: white;
+                background-color: black;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 10px;
+                transition: 0.45s;
+            }
+
+            .banner {
+                background-color: #C9AC80;
+                height: 500px;
+                text-align: center;
+                color: white;
+            }
+
+            .banner img {
+                border-radius: 1000px;
+                height: 150px;
+                border: solid;
+                border-color: white;
+                margin-top: 100px;
+            }
+
+           .banner h1 {
+            margin-top:30px;
+           }
+
+           .banner p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+           }
+
+           .banner button {
+            color: black;
+            width: 300px;
+            height: 40px;
+            margin-top: 10px;
+            border-radius: 10px;
+            border: none;
+            background-color:#987651;
+            font-size: 14px;
+            color: white;
+            transition: 0.35s;
+           }
+
+           .banner button:hover {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            width: 310px;
+            height: 50px;
+            transition: 0.35s;
+            
+           }
+           .boxsoftskill {
+            margin-top: 90px;
+            align-content: center;
+            text-align: center;
+           }
+
+           .boxhardskill {
+            margin-top: 500px;
+            align-content: center;
+            text-align: center;
+           }
+
+           .boxleft, .boxcenter, .boxright {
+            width: 300px;
+            height: 320px;
+            margin: 70px 20px 20px 140px;
+            text-align: center;
+            padding: 30px 30px;
+            background-color: rgb(250, 250, 250);
+            box-shadow: 10px 20px 30px rgb(214, 214, 214);
+            border-radius: 20px;
+            float: left;
+            transition: 0.35s;
+           }
+
+           .boxleft:hover, .boxcenter:hover, .boxright:hover {
+            transition: 0.35s;
+           }
+
+           .detail {
+            color: rgb(158, 158, 158);
+            margin-top: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+           }
+
+           .contactme {
+            text-align: center;
+            width: 500px;
+            margin: auto;
+            margin-top: 550px;
+            margin-bottom: 200px;
+            
+           }
+
+          .contactme img {
+            width: 40px;
+            margin-top: 20px;
+          }
+
+          .footer {
+            background-color: grey;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            pointer-events: none;
+          }
+
+            
+        </style>
+    </head>
+    <body>
+        <div class="navigation">
+            <div class="logo">
+                <h2>Syahir Azhar</h2>
+            </div>
+    
+            <div class="menu">
+                <ul>
+                    <li><a href="#Banner">About Me</a></li>
+                    <li><a href="#Softskill">Softskill</a></li>
+                    <li><a href="#Hardskill">Hardskill</a></li>
+                    <li><a href="#Contactme">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="banner" id="Banner">
+            <img src="syahir.png" alt="">
+            <h1>I'am Digital Creator</h1>
+            <p>I can realise your idea in art form to your reality and expectation.</p>
+
+            <a href=""><button>Explore about me</button></a>
+        </div>
+
+        <div class="boxsoftskill" id="Softskill">
+            <h1>Softskill</h1>
+            <div class="boxleft">
+                <img src="ss1.png" alt="">
+                <p><h3>Communication</h3></p>
+                <p class="detail">I can communicate well and give you insightful ideas.</p>
+            </div>
+        </div>
+
+            <div class="boxcenter">
+                <img src="ss2.png" alt="">
+                <p><h3>Creativity</h3></p>
+                <p class="detail">I have good creativity in coming up with ideas that appeal to what you want.</p>
+            </div>
+        </div>
+
+            <div class="boxright">
+                <img src="ss3.png" alt="">
+                <p><h3>Problem Solving</h3></p>
+                <p class="detail">If you have a problem in your design and want a solution, I will help solve it.</p>
+            </div>
+        </div>
+
+        <div class="boxhardskill" id="Hardskill">
+            <h1>Hardskill</h1>
+            <div class="boxleft">
+                <img src="hs1.png" alt="">
+                <p><h3>Graphic</h3></p>
+                <p class="detail">I am proficient in graphic design such as illustration, image manipulation, and image editing. </p>
+            </div>
+        </div>
+
+            <div class="boxcenter">
+                <img src="hs2.png" alt="">
+                <p><h3>Development</h3></p>
+                <p class="detail">I am proficient in website development such as UI/UX and also programming in CSS and HTML languages.</p>
+            </div>
+        </div>
+
+            <div class="boxright">
+                <img src="hs3.png" alt="">
+                <p><h3>3D Randering</h3></p>
+                <p class="detail">3D rendering and 3-dimensional art are also my expertise in the form of 3D animation or images.</p>
+            </div>
+        </div>
+
+        <div class="contactme" id="Contactme">
+            <div>
+                <h1>Contact Me</h1>
+                <p>you can contact me using any social media above</p>
+                <a href="https://www.youtube.com/watch?v=zuzodcBCMWA"> <img src="instagramicon.png">
+                <a href="https://twitter.com/home"> <img src="twittericon.png">
+                <a href="https://wa.link/wjdm87"> <img src="whatsappicon.png">
+                <a href="mailto:syahirazharh@gmail.com"> <img src="emailicon.png">
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>copyright©2023 | Muhammad Syahir Azhar Bin Harun</p>
+        </div>
+
+
+
+    </body>
+</html>
